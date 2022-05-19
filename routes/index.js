@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.status(200).json({
     message:"Welcome to the express js server",
-    status:'Ok'
+    status:"success"
   });
 });
 
